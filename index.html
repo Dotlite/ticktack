@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FUMN GAMES</title>
+    <link rel="stylesheet" href="ionicons-2.0.1\css\ionicons.min.css"></link>
+    <link href ="style.css" rel = 'stylesheet'></link>
+</head>
+
+<body onload="init()">
+    <p style="text-align:center; font-size:30px; color:white;"> Tic-tac toe</p>
+    <div class="instructor">
+        Hey! You could learn from your mistakes.
+        Click on the moves on the sides. 
+    </div>
+        <div class="game-cont">
+            
+            <div class="player-name" >
+                <span id ='1' contenteditable>
+                Player 1</span>
+                <i class="ion-ios-flame " style='color:#ee520a' id='p1'></i>
+            </div> 
+            <div class="indicator">
+
+            </div>
+            <div class="player-name">
+                    <span id = '2'  contenteditable>Player 2 </span>
+                    <i class="ion-ios-flame-outline " style='color:#0a9aee' id='p2'></i>
+                </div>
+                <div class="counter" id='p1'>
+
+                </div>
+            <div class="tic-tac">
+                    <span data-row='0' data-column='0'> hdjhbj</span>
+                    <span data-row='0' data-column='1'> </span>
+                    <span data-row='0' data-column='2'> </span>
+                    <span data-row='1' data-column='0'> </span>
+                    <span data-row='1' data-column='1'> </span>
+                    <span data-row='1' data-column='2'> </span>
+                    <span data-row='2' data-column='0'> </span>
+                    <span data-row='2' data-column='1'> </span>
+                    <span data-row='2' data-column='2'> </span>
+            </div>
+            <div class="counter" id='p2'>
+
+            </div>
+            <div></div>
+            <div class="restart-btn">
+                   <i class="ion-ios-loop " style='color:#e2e7eb' id='p1'></i>
+            </div>
+        </div>
+    <script src='script.js'></script>
+</body>
+</html>
